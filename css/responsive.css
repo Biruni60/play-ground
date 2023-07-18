@@ -1,0 +1,52 @@
+@media screen and (max-width:430px) {
+    .navbar {
+        flex-direction: column;
+        padding: 0 10px;
+
+
+    }
+
+    .nav-logo {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .fa-gamepad {
+        margin-right: 20px;
+    }
+
+    .nav-item {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        gap: 20px;
+        padding-bottom: 30px;
+    }
+
+    #follow {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:430px) and (max-width:770px) {
+    .navbar {
+        padding: 0 30px;
+        flex-direction: column;
+    }
+
+    .nav-logo {
+        width: 100%;
+        text-align: center;
+    }
+     .nav-item{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+     }
+}
