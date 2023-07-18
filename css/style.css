@@ -2,7 +2,12 @@
     font-family: 'Work Sans', sans-serif;
 
 }
-
+.common-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
 .navbar {
 
     display: flex;
@@ -115,10 +120,7 @@ margin-right: 20px;
 }
 
 .banner-item h1 {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  
 
     font-size: 5rem;
     font-weight: 800;
@@ -132,9 +134,7 @@ margin-right: 20px;
     font-size: 1.25rem;
     font-weight: 500;
 }
-.banner-button{
-    
-}
+
 
 .banner-button button{
     color: #FFF;
@@ -147,4 +147,48 @@ background:  linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 padding:20px 40px ;
 margin-right: 10px;
 }
- 
+ /* banner-ends */
+ .aniversary-container{
+    display: flex;
+    margin-top: 20px;
+    padding: 90px 200px;
+    border: 1px solid salmon;
+    align-items: center;
+    
+  
+ }
+ .aniversary-item{
+   text-align: right;
+    width: 40%;
+  border: 1px solid blue;
+ }
+ .aniversary-item h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+ }
+ .aniversary-item p{
+    color: #534C64;
+
+font-size: 1.2 rem;
+
+font-weight: 400;
+ }
+ .aniversary-image{
+    width: 60%;
+    border: 1px solid red;
+    display: flex;
+    align-items: end;
+
+ }
+
+ .aniversary-image #image-1{
+   width: 65%;
+ }
+ .aniversary-image #image-2{
+    width: 35%;
+    height: 100%;
+    position: relative;
+    top: 85px;
+    left: 120px;
+ }

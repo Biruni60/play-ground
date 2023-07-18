@@ -50,6 +50,34 @@
         margin-top: 20px;
        
     }
+    /* banner-ends */
+    /* aniversary satrts */
+    .aniversary-container{
+        padding: 90px 0;
+        flex-direction: column;
+    }
+    .aniversary-item{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .aniversary-image{
+        width: 100%;
+        position: relative;
+    }
+    .aniversary-image #image-1{
+        width: 60%;
+        padding-left: 100px;
+      }
+      .aniversary-image #image-2{
+        position: absolute;
+         width: 120px;
+         height: 140px;
+         
+         top:150px;
+         left: 50px;
+      }
+      /* aniversary ends */
 }
 
 @media screen and (min-width:430px) and (max-width:770px) {
@@ -92,4 +120,31 @@
     margin-top: 20px ;
    
 }
+/* banner ends */
+/* aniversary-starts */
+.aniversary-container{
+    padding: 90px 0;
+    flex-direction: column;
+}
+.aniversary-item{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.aniversary-image{
+    width: 100%;
+    position: relative;
+}
+.aniversary-image #image-1{
+    width: 60%;
+    padding-left: 200px;
+  }
+  .aniversary-image #image-2{
+    position: absolute;
+     width: 220px;
+     height: 270px;
+     
+     top:270px;
+     left: 100px;
+  }
 }
