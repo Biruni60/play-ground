@@ -51,10 +51,24 @@
        
     }
     /* banner-ends */
+      /* online-games */
+      .online-games-container{
+        padding: 0;
+    }
+    .card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 90%;
+       margin-bottom: 30px;
+    }
+
     /* aniversary satrts */
     .aniversary-container{
         padding: 90px 0;
         flex-direction: column;
+        padding-top: 0;
     }
     .aniversary-item{
         width: 100%;
@@ -78,6 +92,25 @@
          left: 50px;
       }
       /* aniversary ends */
+      /* games_container-starts */
+      .games-container{
+        padding: 0;
+        
+    }
+    .games-cart-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1px;
+        padding-bottom: 30px;
+    }
+    .games-cart{
+        flex-direction: column;
+       max-height: fit-content;
+      margin-right: 0;
+      text-align: center;
+      justify-content: center;
+      
+    }
       /* footer-starts */
     .footer-content{
         display: grid;
@@ -89,6 +122,7 @@
         grid-template-columns:repeat(2,1fr) ;
         gap: 10px;
     }
+  
 }
 
 @media screen and (min-width:430px) and (max-width:770px) {
@@ -132,10 +166,21 @@
    
 }
 /* banner ends */
+  /* online-games */
+
+  .online-games-container{
+    padding: 50px 0;
+}
+
+/* games-container-starts */
+.games-cart-container{
+    padding: 0;
+}
 /* aniversary-starts */
 .aniversary-container{
-    padding: 90px 0;
+    padding:  90px 0;
     flex-direction: column;
+    padding-top: 0;
 }
 .aniversary-item{
     width: 100%;
@@ -158,4 +203,24 @@
      top:270px;
      left: 100px;
   }
+       /* games_container-starts */
+       .games-container{
+        padding: 0;
+        
+    }
+    .games-cart-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 5px;
+        padding-bottom: 30px;
+    }
+    .games-cart{
+        flex-direction: column;
+       max-height: fit-content;
+      margin-right: 0;
+      text-align: center;
+      justify-content: center;
+      
+    }
+
 }
