@@ -2,12 +2,14 @@
     font-family: 'Work Sans', sans-serif;
 
 }
-.common-color{
+
+.common-color {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
+
 .navbar {
 
     display: flex;
@@ -16,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
-   
+
 }
 
 .nav-logo {
@@ -32,25 +34,25 @@
     align-items: center;
 }
 
-.fa-gamepad {
-    color: #FF42A5;
-    margin-right: 20px;
 
-}
 
-.nav-logo img{
+.nav-logo img,
+.footer-logo img {
     width: auto;
     height: 2rem;
     margin-right: 10px;
-   
+
 }
-.nav-logo p {
+
+.nav-logo p,
+.footer-logo p {
     font-size: 2.8rem;
     font-weight: 700;
     color: #0B0223;
 }
 
-.nav-logo p span {
+.nav-logo p span,
+.footer-logo p span {
     color: #FF42A5;
 }
 
@@ -85,7 +87,7 @@
 .banner-container {
     background-color: #fff;
     display: flex;
-   
+
 
 
 }
@@ -93,9 +95,9 @@
 .banner-item {
     width: 40%;
     padding: 10px 200px;
-   
+
     background-image: url('../images/Group\ 14.png');
-margin-right: 20px;
+    margin-right: 20px;
 }
 
 .banner-image {
@@ -106,8 +108,8 @@ margin-right: 20px;
 
 .banner-image img {
     width: 100%;
-   
-   
+
+
 
 }
 
@@ -116,17 +118,17 @@ margin-right: 20px;
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 0;
-    
+
 }
 
 .banner-item h1 {
-  
+
 
     font-size: 5rem;
     font-weight: 800;
-   margin-bottom: 0;
+    margin-bottom: 0;
     margin-top: 0;
-  
+
 }
 
 .banner-item p {
@@ -136,59 +138,157 @@ margin-right: 20px;
 }
 
 
-.banner-button button{
+.banner-button button {
     color: #FFF;
 
-font-size: 20px;
+    font-size: 20px;
 
-font-weight: 600;
-border-radius: 48px;
-background:  linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-padding:20px 40px ;
-margin-right: 10px;
+    font-weight: 600;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 20px 40px;
+    margin-right: 10px;
 }
- /* banner-ends */
- .aniversary-container{
+
+/* banner-ends */
+.aniversary-container {
     display: flex;
     margin-top: 20px;
     padding: 90px 200px;
-    border: 1px solid salmon;
+
     align-items: center;
-    
-  
- }
- .aniversary-item{
-   text-align: right;
+
+
+}
+
+.aniversary-item {
+    text-align: right;
     width: 40%;
-  border: 1px solid blue;
- }
- .aniversary-item h3{
+
+}
+
+.aniversary-item h3 {
     font-size: 3rem;
     font-weight: 700;
     color: #0B0223;
- }
- .aniversary-item p{
+}
+
+.aniversary-item p {
     color: #534C64;
 
-font-size: 1.2 rem;
+    font-size: 1.2 rem;
 
-font-weight: 400;
- }
- .aniversary-image{
+    font-weight: 400;
+}
+
+.aniversary-image {
     width: 60%;
-    border: 1px solid red;
+
     display: flex;
     align-items: end;
 
- }
+}
 
- .aniversary-image #image-1{
-   width: 65%;
- }
- .aniversary-image #image-2{
+.aniversary-image #image-1 {
+    width: 65%;
+}
+
+.aniversary-image #image-2 {
     width: 35%;
     height: 100%;
     position: relative;
     top: 85px;
     left: 120px;
- }
+}
+
+/* footer-starts */
+.footer-container {
+    background-color: #0B0223;
+    padding: 120px 0;
+    margin-top: 50px 0;
+
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.footer-logo p {
+    color: #FFF;
+    margin: 0;
+
+}
+
+.footer-content {
+    padding-bottom: 20px;
+   
+    text-align: center;
+}
+
+.footer-content a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: rgba(255, 255, 255, 0.60);
+
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-social button {
+    font-size: 40px;
+    padding-top: 6px;
+    background-color: transparent;
+    border: none;
+    margin-right: 40px;
+}
+
+.footer-social .fa-brands {
+    width: 40px;
+    height: 60px;
+}
+
+.footer-social .fa-apple {
+    color: white;
+
+}
+
+.footer-social .fa-twitter,
+.footer-social .fa-instagram {
+    color: white;
+}
+
+.terms {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.terms a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.copy-right {
+    text-align: center;
+}
+
+.copy-right small {
+    color: rgba(255, 255, 255, 0.60);
+
+    font-size: 1rem;
+
+    font-weight: 500;
+
+}

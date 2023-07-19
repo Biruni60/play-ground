@@ -78,6 +78,17 @@
          left: 50px;
       }
       /* aniversary ends */
+      /* footer-starts */
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+    }
+    .terms{
+        display: grid;
+        grid-template-columns:repeat(2,1fr) ;
+        gap: 10px;
+    }
 }
 
 @media screen and (min-width:430px) and (max-width:770px) {
