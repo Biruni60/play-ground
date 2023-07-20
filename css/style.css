@@ -156,6 +156,7 @@
 
 .online-games-container {
     padding: 20px 200px;
+    position: sticky;
 }
 
 .online-games-item {
@@ -198,7 +199,7 @@
 }
 .card img {
     width: 100%;
-
+     border: 4px solid transparent;
     border-radius: 12px;
 }
 
@@ -223,17 +224,20 @@
 }
 
 .card-1 img:hover {
-    opacity: 0.5;
-    border: 2px solid #FF42A5;
+    filter: brightness(50%);
+    cursor: pointer;
+    border: 4px solid #FF42A5;
 
 
 }
 
 .card-1:hover i {
     opacity: 1;
+    cursor: pointer;
 }
 .card-1:hover .watch{
     opacity: 1;
+    cursor: pointer;
 }
 .card p {
     color: #534C64;
@@ -318,6 +322,7 @@
     align-items: center;
     margin-right: 30px;
     margin-top: 20px;
+    border: 2px solid transparent;
 
 }
 
